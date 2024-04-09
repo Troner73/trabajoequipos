@@ -41,6 +41,23 @@ class ConfiguradorEspañolBasico implements IConfigurable {
     dameMostrador(): IMuestra {
         return new MuestraHTML();
     }
+    
+    class ConfiguradorAdjunto implements IConfigurable {
+    dameGenerador(): IGeneraHTML {
+        return new MiPrimerHTML(new HTMLBootStrap());
+    }
+    dameCreador(): IPersonable {
+        return new CreadorHTML();
+    }
+    dameValidador(): IValidable {
+        return new ValidadorEspañol();
+    }
+    dameMostrador(): IMuestra {
+        return new MuestraHTML2();
+    }
+
+
+
 
 }
 interface IPersonable {
