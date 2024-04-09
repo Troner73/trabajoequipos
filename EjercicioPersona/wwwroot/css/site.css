@@ -22,7 +22,7 @@ body {
 }
 
 #verde
-{      
+{
     width: 200px;
     height: 50px;
     background-color: olive;
@@ -32,12 +32,4 @@ body {
     width: 200px;
     height: 50px;
     background-color: red;
-}
-
-
-.container {
-    margin-top: 150px;
-    padding-bottom: 4%;
-    border-radius:10%;
-    background-color: #e68a54;
 }
