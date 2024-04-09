@@ -25,10 +25,10 @@ class ConfiguradorEspañolBasico {
         return new MiPrimerHTML(new HTMLBootStrap());
     }
     dameCreador() {
-        return new CreadorManualEspañol();
+        return new CreadorHTML();
     }
     dameValidador() {
-        return new ValidadorEspañol();
+        return new ValidadorIngles();
     }
     dameMostrador() {
         return new MuestraHTML();
