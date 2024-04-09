@@ -20,3 +20,16 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+#verde
+{
+    width: 200px;
+    height: 50px;
+    background-color: olive;
+}
+
+#rojo {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+}
